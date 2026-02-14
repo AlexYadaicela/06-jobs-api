@@ -2,12 +2,12 @@ import {
   inputEnabled,
   setDiv,
   message,
+  token,
   enableInput,
   setToken,
 } from "./index.js";
 import { showLoginRegister } from "./loginRegister.js";
 import { showJobs } from "./jobs.js";
-import { set } from "mongoose";
 
 let registerDiv = null;
 let name = null;

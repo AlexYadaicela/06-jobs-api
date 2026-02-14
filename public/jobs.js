@@ -15,7 +15,7 @@ let jobsTableHeader = null;
 
 export const handleJobs = () => {
   jobsDiv = document.getElementById("jobs");
-  const logOff = document.getElementById("logoff");
+  const logoff = document.getElementById("logoff");
   const addJob = document.getElementById("add-job");
   jobsTable = document.getElementById("jobs-table");
   jobsTableHeader = document.getElementById("jobs-table-header");
@@ -24,7 +24,7 @@ export const handleJobs = () => {
     if (inputEnabled && e.target.nodeName === "BUTTON") {
       if (e.target === addJob) {
         showAddEdit(null);
-      } else if (e.target === logOff) {
+      } else if (e.target === logoff) {
         showLoginRegister();
       }
     }
